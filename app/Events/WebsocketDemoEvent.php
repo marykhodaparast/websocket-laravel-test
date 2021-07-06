@@ -22,7 +22,7 @@ class WebsocketDemoEvent implements ShouldBroadcast
      */
     public function __construct($somedata)
     {
-        $this->somedate = $somedata;
+        $this->somedata = $somedata;
     }
 
     /**
